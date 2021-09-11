@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import Combine
 
 class FeedContainer: UIView {
+    
+    var cancellables = Set<AnyCancellable>()
     
     func clearTranslates(filter: ((UIView) -> Bool)? = nil) {
         clearTranslates(self, filter: filter)

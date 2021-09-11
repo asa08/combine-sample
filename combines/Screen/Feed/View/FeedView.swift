@@ -10,7 +10,7 @@ import UIKit
 class FeedView: UIView {
     
     let modules: [FeedContainer] = [
-        
+        FeedSimpleView()
     ]
     
     let scrollView: UIScrollView = {
