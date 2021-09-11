@@ -47,8 +47,7 @@ class FeedSimpleView: FeedContainer {
             baseView.topAnchor.constraint(equalTo: topAnchor, constant: 24),
             baseView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 24),
             baseView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24),
-            baseView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -24)
+            baseView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -16)
         ])
     }
-    
 }

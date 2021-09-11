@@ -10,7 +10,9 @@ import UIKit
 class FeedView: UIView {
     
     let modules: [FeedContainer] = [
-        FeedSimpleView()
+        FeedSimpleView(),
+        FeedTextView(),
+        FeedTextFieldView()
     ]
     
     let scrollView: UIScrollView = {
@@ -24,6 +26,7 @@ class FeedView: UIView {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         stackView.alignment = .fill
+        stackView.spacing = 8
         return stackView
     }()
     
