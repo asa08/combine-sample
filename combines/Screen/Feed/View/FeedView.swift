@@ -12,7 +12,8 @@ class FeedView: UIView {
     let modules: [FeedContainer] = [
         FeedSimpleView(),
         FeedTextView(),
-        FeedTextFieldView()
+        FeedTextFieldView(),
+        FeedButtonView()
     ]
     
     let scrollView: UIScrollView = {
