@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FeedViewController" customModule="combines" customModuleProvider="target">
             <connections>
+                <outlet property="feedView" destination="iE7-cG-Xzs" id="mnU-5E-WLV"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Mz8-tI-UaX"/>
             </connections>
         </placeholder>
@@ -17,8 +18,20 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iE7-cG-Xzs" customClass="FeedView" customModule="combines" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="iE7-cG-Xzs" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="GJF-rU-R1C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="iE7-cG-Xzs" secondAttribute="bottom" id="IDq-0f-ypz"/>
+                <constraint firstItem="iE7-cG-Xzs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QxI-Rf-X2d"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iE7-cG-Xzs" secondAttribute="trailing" id="R2Z-5c-vuq"/>
+            </constraints>
             <point key="canvasLocation" x="139" y="153"/>
         </view>
     </objects>

@@ -9,4 +9,10 @@ import UIKit
 
 class FeedViewController: UIViewController {
     
+    @IBOutlet weak var feedView: FeedView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        feedView.initSelf()
+    }
 }
