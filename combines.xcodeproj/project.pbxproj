@@ -16,7 +16,6 @@
 		8E1A660126EC6FE800AE836A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A660026EC6FE800AE836A /* FeedViewController.swift */; };
 		8E1A660326EC6FF200AE836A /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1A660226EC6FF200AE836A /* FeedViewController.xib */; };
 		8E1A660626EC707C00AE836A /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A660526EC707C00AE836A /* FeedBuilder.swift */; };
-		8E1A660826EC739800AE836A /* Combine+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A660726EC739800AE836A /* Combine+UIControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		8E1A660026EC6FE800AE836A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8E1A660226EC6FF200AE836A /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 		8E1A660526EC707C00AE836A /* FeedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
-		8E1A660726EC739800AE836A /* Combine+UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Combine+UIControl.swift"; path = "../../../../Combine+UIControl.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +101,10 @@
 		8E1A65CA26EC6F8700AE836A /* combines */ = {
 			isa = PBXGroup;
 			children = (
+				8E1A660C26EC74F200AE836A /* Extension */,
 				8E1A65CB26EC6F8700AE836A /* AppDelegate.swift */,
 				8E1A65CD26EC6F8700AE836A /* SceneDelegate.swift */,
 				8E1A65FB26EC6FB000AE836A /* Screen */,
-				8E1A65FC26EC6FBA00AE836A /* Extension */,
 				8E1A65D426EC6F8700AE836A /* Assets.xcassets */,
 				8E1A65D626EC6F8700AE836A /* LaunchScreen.storyboard */,
 				8E1A65D926EC6F8700AE836A /* Info.plist */,
@@ -140,14 +138,6 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
-		8E1A65FC26EC6FBA00AE836A /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				8E1A65FE26EC6FCF00AE836A /* Combine */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		8E1A65FD26EC6FC500AE836A /* Feed */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,14 +145,6 @@
 				8E1A65FF26EC6FDC00AE836A /* View */,
 			);
 			path = Feed;
-			sourceTree = "<group>";
-		};
-		8E1A65FE26EC6FCF00AE836A /* Combine */ = {
-			isa = PBXGroup;
-			children = (
-				8E1A660726EC739800AE836A /* Combine+UIControl.swift */,
-			);
-			path = Combine;
 			sourceTree = "<group>";
 		};
 		8E1A65FF26EC6FDC00AE836A /* View */ = {
@@ -180,6 +162,13 @@
 				8E1A660526EC707C00AE836A /* FeedBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		8E1A660C26EC74F200AE836A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +305,6 @@
 				8E1A660126EC6FE800AE836A /* FeedViewController.swift in Sources */,
 				8E1A65CE26EC6F8700AE836A /* SceneDelegate.swift in Sources */,
 				8E1A660626EC707C00AE836A /* FeedBuilder.swift in Sources */,
-				8E1A660826EC739800AE836A /* Combine+UIControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
