@@ -38,7 +38,7 @@ class FeedTextView: FeedContainer {
     }
     
     private func setting() {
-        textView.textPublisher().sink(receiveValue: { _ in
+        textView.textPublisher().sink(receiveValue: { text in
             print("text canged!!")
         }).store(in: &cancellables)
     }

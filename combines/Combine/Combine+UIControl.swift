@@ -10,9 +10,7 @@ import UIKit
 
 public protocol CombineCompatible {}
 
-// MARK: - UIControl
 public extension UIControl {
-    // swiftlint:disable:next colon
     final class Subscription<SubscriberType: Subscriber, Control: UIControl>:
                             Combine.Subscription where SubscriberType.Input == Control {
         
