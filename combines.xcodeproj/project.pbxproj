@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8E024E7926EC75F90055FC47 /* Combine+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E024E7826EC75F90055FC47 /* Combine+UIControl.swift */; };
-		8E024E7B26EC76AA0055FC47 /* Combine+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E024E7A26EC76AA0055FC47 /* Combine+UIButton.swift */; };
 		8E024E7D26EC77120055FC47 /* Combine+TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E024E7C26EC77120055FC47 /* Combine+TapGesture.swift */; };
 		8E024E7F26EC79020055FC47 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E024E7E26EC79020055FC47 /* FeedView.swift */; };
 		8E024E8226EC80760055FC47 /* FeedContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E024E8126EC80760055FC47 /* FeedContainer.swift */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		8E024E7826EC75F90055FC47 /* Combine+UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+UIControl.swift"; sourceTree = "<group>"; };
-		8E024E7A26EC76AA0055FC47 /* Combine+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+UIButton.swift"; sourceTree = "<group>"; };
 		8E024E7C26EC77120055FC47 /* Combine+TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+TapGesture.swift"; sourceTree = "<group>"; };
 		8E024E7E26EC79020055FC47 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8E024E8126EC80760055FC47 /* FeedContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContainer.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				8E024E7826EC75F90055FC47 /* Combine+UIControl.swift */,
-				8E024E7A26EC76AA0055FC47 /* Combine+UIButton.swift */,
 				8E024E7C26EC77120055FC47 /* Combine+TapGesture.swift */,
 				8E024E8726EC97A20055FC47 /* Combine+UITextView.swift.swift */,
 			);
@@ -349,7 +346,6 @@
 				8E1A660626EC707C00AE836A /* FeedBuilder.swift in Sources */,
 				8E024E7926EC75F90055FC47 /* Combine+UIControl.swift in Sources */,
 				8E024E8A26EC9D370055FC47 /* FeedTextFieldView.swift in Sources */,
-				8E024E7B26EC76AA0055FC47 /* Combine+UIButton.swift in Sources */,
 				8E024E8C26ECA3240055FC47 /* FeedButtonView.swift in Sources */,
 				8E024E7D26EC77120055FC47 /* Combine+TapGesture.swift in Sources */,
 				8E024E8226EC80760055FC47 /* FeedContainer.swift in Sources */,
